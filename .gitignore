@@ -1,0 +1,10 @@
+
+# Mac OS X
+.DS_Store
+
+# Dependency directory
+node_modules
+
+# other
+.eslintrc
+

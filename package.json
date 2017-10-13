@@ -1,0 +1,26 @@
+{
+  "name": "imsdk-restapi-nodejs-es6-sdk",
+  "version": "0.1.0",
+  "description": "tencent yun tim server sdk for es 6",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZackKing/imsdk-restapi-nodejs-es6-sdk.git"
+  },
+  "author": "Zack King",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZackKing/imsdk-restapi-nodejs-es6-sdk/issues"
+  },
+  "homepage": "https://github.com/ZackKing/imsdk-restapi-nodejs-es6-sdk#readme",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
