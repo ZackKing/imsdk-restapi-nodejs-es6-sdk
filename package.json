@@ -1,6 +1,6 @@
 {
   "name": "imsdk-restapi-nodejs-es6-sdk",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "tencent yun tim server sdk for es 6",
   "main": "index.js",
   "directories": {
