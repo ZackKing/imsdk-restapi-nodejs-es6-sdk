@@ -1,20 +1,20 @@
 
 const path = require('path');
-const { TIMConfig, TIMRestApi } = require('../index.js');
+const TIMRestApi = require('../index.js');
 
 (async () => {
 
   // get from your app
   // https://console.cloud.tencent.com/avc
   
-  const config = new TIMConfig({
+  const config = {
     sdkAppid: 'sdkAppid',
     identifier: 'admin identifier',
     accountType: 'admin accountType',
     // version: '201512300000',
     privateKeyPath: path.join(__dirname, './key/private_key'),
     expireAfter: 30 * 24 * 3600
-  });
+  };
 
   const api = new TIMRestApi(config);
   api.init();

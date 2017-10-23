@@ -1,4 +1,2 @@
-module.exports = {
-  TIMConfig: require('./lib/TIMConfig.js'),
-  TIMRestApi: require('./lib/TIMRestApi.js')
-};
+
+module.exports = require('./lib/TIMRestApi.js');

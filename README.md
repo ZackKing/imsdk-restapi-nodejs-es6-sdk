@@ -8,7 +8,7 @@ Base on https://github.com/tencentyun/imsdk_restapi-nodejs-sdk
 
 Node v7.6.0 or higher for ES2015 and async function support.
 
-See test/test.js
+See example/test.js
 
 ## Authors
 [@ZackKing](https://github.com/ZackKing)
